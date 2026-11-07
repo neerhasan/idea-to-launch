@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="DejaVu Sans Mono, monospace">
+<rect width="1200" height="640" fill="#FFFFFF"/>
+<rect x="30" y="30" width="1140" height="580" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="70" y="85" font-size="26" font-weight="bold" fill="#0F172A" font-family="DejaVu Sans, Arial, sans-serif">Your project folder, organised from day one</text>
+<g font-size="22">
+<text x="70" y="140" fill="#0F172A" font-weight="bold">MY-APP-PROJECT/</text>
+<text x="70" y="190" fill="#534AB7" font-weight="bold">├── 01-Product-Planning/</text>
+<text x="640" y="190" fill="#64748B" font-size="19">PRD, Feature spec, User flows</text>
+<text x="70" y="238" fill="#534AB7" font-weight="bold">├── 02-Technical-Planning/</text>
+<text x="640" y="238" fill="#64748B" font-size="19">Tech stack, Architecture</text>
+<text x="70" y="286" fill="#0F6E56" font-weight="bold">├── 03-UI-UX/</text>
+<text x="640" y="286" fill="#64748B" font-size="19">Design system, Screens</text>
+<text x="70" y="334" fill="#0F6E56" font-weight="bold">├── 04-Development/</text>
+<text x="640" y="334" fill="#64748B" font-size="19">Project structure, Dev log</text>
+<text x="70" y="382" fill="#993C1D" font-weight="bold">├── 05-Testing/</text>
+<text x="640" y="382" fill="#64748B" font-size="19">Testing report</text>
+<text x="70" y="430" fill="#993C1D" font-weight="bold">├── 06-Release/</text>
+<text x="640" y="430" fill="#64748B" font-size="19">Release checklist</text>
+<text x="70" y="478" fill="#993C1D" font-weight="bold">└── 07-Maintenance/</text>
+<text x="640" y="478" fill="#64748B" font-size="19">Project status (updated every session)</text>
+</g>
+<text x="70" y="550" font-size="20" fill="#475569" font-family="DejaVu Sans, Arial, sans-serif">Claude creates each document from a ready template, in this exact place.</text>
+</svg>

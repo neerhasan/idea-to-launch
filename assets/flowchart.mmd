@@ -1,0 +1,56 @@
+flowchart TD
+    A(["START: App Idea"]) --> B["01. Idea Discovery & Requirements"]
+    B --> C["02. Product Documentation"]
+
+    C --> C1["PRD"]
+    C --> C2["Feature Specification"]
+    C --> C3["User Flow & Navigation"]
+
+    C1 --> D{"Documentation Approved?"}
+    C2 --> D
+    C3 --> D
+
+    D -->|No| B
+    D -->|Yes| E["03. Technology Research & Selection"]
+
+    E --> F["04. System Architecture"]
+    F --> G{"Architecture Approved?"}
+    G -->|No| F
+    G -->|Yes| H["05. UI/UX Design"]
+
+    H --> I{"Design Approved?"}
+    I -->|No| H
+    I -->|Yes| J["06. Development Environment Setup"]
+
+    J --> K{"Environment Working?"}
+    K -->|No| J
+    K -->|Yes| L["07. AI-Assisted Development"]
+
+    L --> M["08. Backend, Database & Integration"]
+    M --> N["09. Quality Assurance & Testing"]
+
+    N --> O{"Critical Bugs Found?"}
+    O -->|Yes| P["Debug & Fix"]
+    P --> L
+    O -->|No| Q["10. Beta Testing"]
+
+    Q --> R{"Beta Feedback Approved?"}
+    R -->|No| S["Improve & Fix"]
+    S --> N
+    R -->|Yes| T["11. Production Release"]
+
+    T --> U["Platform Distribution"]
+    U --> V["12. Post-Launch Maintenance"]
+
+    V --> W["Monitor, Update & Improve"]
+    W --> X{"New Feature or Improvement?"}
+    X -->|Yes| C
+    X -->|No| W
+
+    classDef start fill:#d1fae5,stroke:#059669,color:#064e3b
+    classDef decision fill:#fef3c7,stroke:#d97706,color:#78350f
+    classDef finish fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
+
+    class A start
+    class D,G,I,K,O,R,X decision
+    class T,U,V,W finish
